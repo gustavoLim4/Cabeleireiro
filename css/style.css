@@ -1,0 +1,827 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap'); */
+
+/* 
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+a {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+}
+
+.site {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.topotodo {
+    background: url(../img/topuFudno.jpg) no-repeat;
+    width: 100%;
+}
+
+.menu {
+    padding: 10px;
+}
+
+.menu ul {
+
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid #f1af64;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+.menu ul li {
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.menu a {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.6em;
+    text-decoration: none;
+    color: #f1af64;
+}
+
+.menu a:hover {
+    color: #ffead2;
+}
+
+
+
+.topo {
+    z-index: 1;
+}
+
+.topo {
+
+    padding: 85px;
+    text-align: center;
+}
+
+.topo h1 {
+
+    padding: 15px;
+    border: 3px solid #f1af64;
+    border-radius: 5px;
+    color: #f1af64;
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;
+}
+
+.topo div button {
+    font-family: 'Josefin Sans', sans-serif;
+    width: 33%;
+    padding: 11px;
+    border: 3px solid #f1af64;
+    border-radius: 5px;
+    margin-top: 85px;
+    background: url(../img/fundo\ do\ fundo.jpg)no-repeat;
+    margin-bottom: 60px;
+}
+
+.topo div button a {
+    text-decoration: none;
+    font-size: 1.9em;
+    color: #f1af64;
+}
+
+.topo div button:hover {
+    border: 2px solid #ffead2;
+    cursor: pointer;
+    color: #ffead2;
+    background: url(../img/fundo\ do\ fundo.jpg) no-repeat;
+    transform: scale(1.2);
+}
+
+
+
+
+
+header div a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header div a:nth-child(2) {
+    margin-left: -15%;
+}
+
+.topoRedeSocial li a {
+    padding: 15px 20px;
+    display: block;
+    text-indent: -9999px;
+    margin: 9px 2px 10px 40px;
+}
+
+.topoRedeSocial li {
+    list-style-type: none;
+}
+
+.topoRedeSocial li:nth-child(1) a {
+    background: url(../img/face40px.png   ) no-repeat;
+}
+
+.topoRedeSocial li:nth-child(2) a {
+    background: url(../img/insta40.png) no-repeat;
+}
+
+.topoRedeSocial li:nth-child(3) a {
+    background: url(../img/whats40.png) no-repeat;
+}
+
+.iconesfixo {
+    position: fixed;
+    z-index: 9999;
+    margin: 0 auto;
+    animation: fadeIn 2s ease-in-out;
+}
+
+
+.iconesfixo {
+    display: flex;
+    margin: -80px;
+}
+
+
+
+.sobre h2 {
+    font-size: 2.6em;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.sobre img {
+    border-radius: 10px;
+    border: 4px solid #f1af64;
+    margin-left: 75px;
+    margin-top: 50px;
+    margin-bottom: 42px;
+}
+
+.sobre img:hover {
+    border: 4px solid #ffead2;
+
+}
+
+.site p {
+    text-align: center;
+    margin-left: 50px;
+    font-size: 1.6em;
+}
+
+.sobre {
+    display: flex;
+}
+
+.sobre h2 {
+    margin: 50px 0px 15px 0px;
+    font-size: 2.9em;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.listaTodos {
+    margin-left: 80px;
+    margin-top: 30px;
+    display: flex;
+    font-size: 1.6em;
+    width: 100%;
+}
+
+.lista2 {
+    margin-left: 60px;
+}
+
+.site h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.9em;
+    margin-top: 20px;
+}
+
+
+
+
+
+.todosEquipe h2 {
+
+    display: flex;
+    justify-content: center;
+    font-size: 2.9em;
+    margin-bottom: 15px;
+    color: #ffffff;
+
+}
+
+.equipe img {
+    margin-left: 60px;
+    margin-top: 80px;
+    width: 80%;
+    border-radius: 20px;
+    margin-bottom: 90px;
+    border: 6px solid #f1af64;
+
+}
+
+.equipe img:hover {
+    border: 6px solid #ffead2;
+    color: #ffead2;
+    transform: scale(1.1);
+
+}
+
+.equipe {
+
+    display: flex;
+}
+
+.todosEquipe {
+    background: url(../img/topuFudno.jpg) no-repeat;
+    padding: 40px;
+    cursor: pointer;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+
+}
+
+.btn button {
+    font-family: 'Josefin Sans', sans-serif;
+
+    width: 26%;
+    padding: 13px;
+    border: 4px solid #f1af64;
+    border-radius: 9px;
+    margin-bottom: 20px;
+    background: url(../img/fundo\ do\ fundo.jpg)no-repeat;
+    color: #f1af64;
+}
+
+.btn button a {
+    text-decoration: none;
+    font-size: 2em;
+    color: #f1af64;
+}
+
+
+.btn button:hover {
+    border: 4px solid #ffead2;
+    color: #ffead2;
+    background: url(../img/fundo\ do\ fundo.jpg) no-repeat;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.servico h2 {
+    font-size: 2.9em;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    color: #000000;
+}
+
+.serv {
+    margin-top: 60px;
+    border: 4px solid #f48200;
+    width: 100%;
+    padding: 70px 100px 40px;
+}
+
+
+.serv h3 {
+    font-size: 3.1em;
+    margin-top: 45px;
+    margin-right: 30px;
+    color: #000000;
+    border-bottom: solid 5px #ffab4a;
+}
+
+.servFT img {
+    width: 12%;
+}
+
+.servFT img {
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.servFT {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+
+.horarioFT {
+    display: flex;
+    border: 4px solid #f48200;
+    width: 100%;
+    margin-top: 63px;
+
+}
+
+
+.horarioFT img {
+    width: 10%;
+    margin-top: 30px;
+    margin-left: 63px;
+    margin-bottom: 25px;
+
+}
+
+.horarioFT h3 {
+    font-size: 2.9em;
+    margin-top: 35px;
+    margin-left: 8%;
+    width: 60%;
+    text-align: center;
+
+}
+
+
+.servico2 {
+    background: url(../img/topuFudno.jpg) no-repeat;
+    padding: 20px 20px
+}
+
+.servico {
+    background: url(../img/fundoFFF.jpg) no-repeat;
+    padding: 40px;
+
+}
+
+
+.servibtn button {
+    font-family: 'Josefin Sans', sans-serif;
+    width: 45%;
+    padding: 17px;
+    border: 4px solid #f1af64;
+    border-radius: 13px;
+    margin-bottom: 5px;
+    background: url(../img/fundo\ do\ fundo.jpg)no-repeat;
+    margin-left: 29%;
+    margin-top: 60px;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+.servibtn button a {
+    text-decoration: none;
+    font-size: 1.9em;
+    color: #f1af64;
+}
+
+.servibtn button:hover {
+    border: 4px solid #ffead2;
+
+    background: url(../img/fundo\ do\ fundo.jpg) no-repeat;
+    transform: scale(1.2);
+}
+
+.servFOTO {
+    display: flex;
+    justify-content: end;
+    margin-top: -43%;
+    width: 100%;
+    margin-left: -243px;
+}
+
+.ctsIM {
+    border: 4px solid #f48200;
+}
+
+
+
+
+
+
+
+
+.crts h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 110px;
+    font-size: 3.2em;
+    color: #ffffff;
+    margin-top: 25px;
+}
+
+.Cortes img {
+    width: 90%;
+    border: 5px solid #f1af64;
+
+}
+
+.Cortes img:hover {
+    border: 5px solid #ffead2;
+    color: #ffead2;
+}
+
+.fotoCortes {
+    display: flex;
+    justify-content: center;
+
+}
+
+.fotoCortes img {
+    margin-right: 50px;
+
+}
+
+
+
+
+.rodape {
+    background: url(../img/topuFudno.jpg) no-repeat;
+}
+
+
+
+
+
+
+.rodape h2 {
+    font-size: 2.6em;
+    display: flex;
+    justify-content: center;
+
+    color: #ffffff;
+    padding: 30px;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.contato a {
+    font-size: 2.6em;
+    text-decoration: none;
+    cursor: pointer;
+    color: #f1af64;
+}
+
+.contato a:nth-child(1) {
+    border: 4px solid #f1af64;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.contato a:nth-child(2) {
+    border: 4px solid #f1af64;
+    border-radius: 5px;
+    margin-top: 25px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.recado div {
+    background-color: #ffffff;
+    width: 40%;
+    border-radius: 10px;
+    margin-left: 30%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+.recado h3 {
+    color: #f1af64;
+    font-size: 2.5em;
+    width: 67%;
+    text-align: center;
+    border: solid 4px #f1af64;
+    padding: 10px;
+    border-radius: 8px;
+    margin-left: 15%;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.iconiw li:nth-child(1) a {
+    border: 4px solid #ffffff;
+    background: url(../img/iconeFaceBranco.svg ) no-repeat;
+}
+
+.iconiw li:nth-child(2) a {
+
+    border: 4px solid #ffffff;
+    background: url(../img/iconeInstaBranco.svg) no-repeat;
+    margin: 0 25px;
+}
+
+.iconiw li:nth-child(3) a {
+    border: 4px solid #ffffff;
+    background: url(../img/iconeWhatsBranco.svg) no-repeat;
+}
+
+.iconiw {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.iconiw li a {
+    padding: 13px 22px;
+    display: block;
+    text-indent: -9999px;
+
+}
+
+.iconiw li {
+    list-style-type: none;
+}
+
+
+
+.butnRodape {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.butnRodape button {
+    
+    font-size: 1.9em;
+    padding: 11px;
+    border: 4px solid #f1af64;
+    border-radius: 13px;
+    margin-bottom: 20px;
+    background: url(../img/fundo\ do\ fundo.jpg) no-repeat;
+    color: #f1af64;
+    width: 35%;
+    cursor: pointer;
+   
+}
+
+.butnRodape button:hover {
+    border: 4px solid #ffead2;
+    color: #ffead2;
+    background: url(../img/fundo\ do\ fundo.jpg) no-repeat;
+    transform: scale(1.2);
+}
+
+.maps iframe {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+.nomeDEV {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 1.4em;
+    color: #ff8a04;
+}
+
+
+
+.tudoCON {
+    background: url(../img/topuFudno.jpg) no-repeat;
+    padding: 70px 0px;
+}
+
+.contato {
+
+    text-align: center;
+}
+
+.contato h2 {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 1.8em;
+
+    margin-bottom: 20px;
+}
+
+.contato h4 {
+    color: #ffffff;
+    font-size: 1.1em;
+    margin-bottom: 2%;
+}
+
+.contato form {
+    display: flex;
+    border: solid 2px #f48200;
+    border-radius: 50px;
+    justify-content: space-around;
+    padding: 4% 1.5%;
+}
+
+.contato form div {
+    width: 45%;
+}
+
+.contato form div div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.contato form label {
+    color: #ffffff;
+    font-size: 2.2em;
+    margin-bottom: 2%;
+}
+
+.contato form input,
+.contato form textarea {
+    border: solid 2px #ff8a04;
+    padding: 0.7em;
+    margin-bottom: 4%;
+
+}
+
+.contato form textarea {
+    resize: none;
+
+    height: 180px;
+}
+
+.btnContato {
+    justify-content: space-around;
+    flex-direction: row !important;
+}
+
+.contato form input[type="submit"],
+.contato form input[type="button"] {
+    background: #ff8a04;
+    width: 45%;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 1.3em;
+    color: wheat;
+    margin-top: 20px;
+    
+}
+
+.contato form input[type="submit"]:hover,
+.contato form input[type="button"]:hover {
+    background: #ffd6a8;
+
+}
+
+.fotoEquipe {
+    background: url(../img/fundoFFF.jpg) no-repeat;
+}
+
+.fotoEquipe h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 2.9em;
+    text-transform: uppercase;
+}
+
+
+
+.fotoCortes img {
+    margin-bottom: 70px;
+}
+
+.fotoPagina {
+    background: url(../img/imgEquipe.jpg) no-repeat;
+    padding: 40px;
+}
+
+.nomeDEVpgn {
+    background: url(../img/imgEquipe.jpg) no-repeat;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 1.4em;
+    color: #ffffff;
+
+}
+
+.todosEquipePagina h2 {
+    font-size: 2.9em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+}
+
+.equipePagina .borda {
+    border: solid 5px #ffffff;
+    padding: 15px;
+}
+
+.todosEquipePagina img {
+    width: 100%;
+    border: solid 8px #ffffff;
+    border-radius: 20px;
+}
+
+.sobreEquipe {
+    width: 70%;
+    margin-left: -9%;
+}
+
+.sobreEquipe p {
+    font-size: 2.3em;
+    color: white;
+    text-transform: uppercase;
+    text-align: left;
+
+}
+
+.equipePagina {
+    display: flex;
+    text-align: center;
+    margin-bottom: 7%;
+}
+
+.iconi li:nth-child(1) a {
+    border: 4px solid #ffffff;
+    background: url(../img/iconeFaceBranco.svg ) no-repeat;
+}
+
+.iconi li:nth-child(2) a {
+
+    border: 4px solid #ffffff;
+    background: url(../img/iconeInstaBranco.svg) no-repeat;
+    margin: 0 25px;
+}
+
+.iconi li:nth-child(3) a {
+    border: 4px solid #ffffff;
+    background: url(../img/iconeWhatsBranco.svg) no-repeat;
+}
+
+.iconi {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 12%;
+    margin-top: 4%;
+}
+
+
+.iconi li a {
+    padding: 19px 29px;
+    display: block;
+    text-indent: -9999px;
+
+}
+
+.iconi li {
+    list-style-type: none;
+}
