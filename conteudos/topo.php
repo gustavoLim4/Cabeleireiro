@@ -27,9 +27,10 @@
                 <div class=" wow animate__animated animate__fadeInUp">
                     <button class="wow animate__animated animate__heartBeat"> <strong><a
                                 href="https://wa.link/5xdxm4">Marque seu
-                                horario!</a></strong></button>
+                                horario !</a></strong></button>
                 </div>
             </div>
         </div>
     </div>
+
 </head>
