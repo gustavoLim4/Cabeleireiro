@@ -1,7 +1,7 @@
 /*AbaixO DE 768 */
 
 @media (max-width: 768px) {
-
+    
 
 
     .topo img {
@@ -14,7 +14,7 @@
 
 
 
-
+        
 
     }
 
@@ -90,9 +90,6 @@
 /* 600 para baixo */
 @media not all and (max-width: 600px) {
 
-
-
-
     .abrir-menu,
     .fechar-menu {
         display: none;
@@ -101,33 +98,11 @@
 
 @media (max-width: 600px) {
 
-    .servibtn button {
-
-        width: 73%;
-        padding: 10px;
-        margin-left: 13%;
-        margin-bottom: 30px;
-    }
-
-
-    .contato form {
-        width: 126%;
-        margin-left: -12%;
-    }
-
-    .contato form input[type="submit"],
-    .contato form input[type="button"] {
-
-        width: 95%;
-
-    }
-
-
     .maps iframe {
         width: 100%;
     }
 
-
+  
 
     .recado div {
         width: 64%;
@@ -253,9 +228,9 @@
     }
 
     .btn button {
-        font-size: 1.3em;
-        width: 82%;
-        padding: 12px
+        font-size: 1.7em;
+        width: 70%;
+        padding: 8px;
     }
 
     .equipe {
@@ -293,20 +268,13 @@
 
     .serv img {
         margin-left: 20px;
-        width: 20%;
 
     }
 
     .horarioFT img {
-        width: 14%;
+        width: 13%;
         height: 133%;
 
-    }
-    .horarioFT img {
-        
-        margin-top: 31px;
-        margin-left: 15px;
-        margin-bottom: 25px;
     }
 
     .horarioFT {
@@ -317,10 +285,8 @@
 
     .horarioFT h3 {
         font-size: 1.7em;
-        margin-top: 22px;
-        margin-left: -7px;
-        margin-bottom: 13px;
-        width: 95%;
+        margin-top: 30px;
+        margin-left: 19px;
     }
 
     .servFOTO {
@@ -343,8 +309,8 @@
     }
 
     .equipePagina {
-
-        flex-direction: column;
+       
+       flex-direction: column;
     }
 
 
@@ -353,9 +319,9 @@
 
 @media (max-width: 550px) {
 
-    /* .crts {
+    .crts {
         display: none;
-    } */
+    }
 
     .site p {
         margin-left: 1%;
@@ -416,24 +382,6 @@
 
 
 @media (max-width: 320px) {
-
-
-    .btn button {
-        width: 91%;
-        font-size: 0.9em;
-        padding: 7px;
-    }
-
-    .site p {
-        margin-left: 8px;
-        margin-bottom: 45px;
-    }
-
-    .fotoPagina {
-
-        padding: 2px;
-    }
-
     .topo {
         padding: 0px;
     }
@@ -483,8 +431,8 @@
         display: flex;
         justify-content: left;
         font-size: 1.9em;
-        margin-top: -6%;
-        margin-left: 7%;
+        margin-top: 7%;
+        margin-left: 4%;
         width: 85%;
     }
 
@@ -499,31 +447,30 @@
         margin-left: 1%;
     }
 
-    /* .equipe img {
+    .equipe img {
         display: none;
-    } */
+    }
 
     .btn button {
         width: 93%;
-        font-size: 1.1em;
-        padding: 2px;
+        font-size: 1.5em;
+        padding: 12px;
     }
 
     .servico h2 {
         justify-content: left;
-        margin-left: 15%;
+        margin-left: 7%;
         font-size: 2.1em;
     }
 
 
     .site h3 {
-        margin-left: 3%;
-        width: 100%
+        margin-left: 4%;
     }
 
-    /* .servFT img {
+    .servFT img {
         display: none;
-    } */
+    }
 
 
     .servibtn button {
@@ -542,30 +489,25 @@
         margin-bottom: 0%;
     }
 
-    /* 
     .crts {
         display: none;
-    } */
+    }
 
     .butnRodape button {
         width: 89%;
-        margin-top: -17px;
-        margin-bottom: -3%;
-        padding: 7px;
-
+        margin-top: 30px;
 
     }
-
+  
     .rodape h2 {
         font-size: 2.6em;
         text-align: center;
         padding: 2%;
     }
-
     .recado div {
         width: 110%;
         margin-left: -6%;
-        margin-top: 4%;
+        margin-top: 10%;
     }
 
 
